@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-/*import Item from './Item'*/
+import Item from './Item'
 
 export default function ItemList () {
     const [itemList, setItemList] = useState ([])
@@ -33,7 +33,7 @@ export default function ItemList () {
     console.log(itemList)
     return (
         <div>
-        { itemList.map((items)=> <p key={items.id}>{items.title}</p> ) }
+         { itemList.map((items)=> <Item key={items.id} precio={items.precio} img={items.img}/> ) }
         </div>
     )
        
