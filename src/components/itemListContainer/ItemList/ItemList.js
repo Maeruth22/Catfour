@@ -33,7 +33,7 @@ export default function ItemList () {
     console.log(itemList)
     return (
         <div>
-         { itemList.map((items)=> <Item key={items.id} precio={items.precio} img={items.img}/> ) }
+         { itemList.map((item)=> <Item key={item.id} title={item.title} description={item.description} price={item.price}/> ) }
         </div>
     )
        
