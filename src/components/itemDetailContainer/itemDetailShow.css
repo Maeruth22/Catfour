@@ -1,4 +1,8 @@
 .imgRaton {
-    height: 200px;
-    width: 200px;
+    max-height: 500px;
+    max-width: 500px;
+}
+.itemContainer {
+    display: flex;
+    justify-content: center;
 }
