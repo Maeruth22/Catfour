@@ -4,7 +4,7 @@ import { useState } from "react"
 
 export default function ItemCount() {
     const [itemQuantity, setItemQuantity] = useState(0);
-    const [itemName, setItemName] = useState('Rascador');
+    const [itemName, setItemName] = useState();
     const [itemStock, setItemStock] = useState(5);
 
     const handleSum = () => {
